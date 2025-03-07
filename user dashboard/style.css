@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b6cef3;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.container .title{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+}
+/* Top Bar (Search and Tabs in One Line) */
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 10px 10PX;
+}
+
+/* Search Bar */
+.search-bar {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+}
+
+.tabs button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    background: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+/* Hover Effect */
+.tabs button:hover {
+    background: #6c63ff;  /* Light purple */
+    transform: scale(1.1);  /* Slight scale-up */
+}
+
+
+/* User Grid */
+.user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+
+/* User Card */
+.user-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Hover Effect */
+.user-card:hover {
+    transform: scale(1.05); /* Slight scale-up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Increase shadow */
+}
+
+/* Avatar (User Image on the Left) */
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* User Info */
+.user-info {
+    flex: 1;
+}
+
+.user-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.user-info p {
+    margin: 5px 0;
+    color: gray;
+}
+
+/* Tags */
+.tags {
+    margin-top: 5px;
+}
+
+.tags span {
+    display: inline-block;
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 2px;
+    font-size: 12px;
+}
