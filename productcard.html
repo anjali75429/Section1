@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="bg-white flex rounded-lg shadow-lg max-w-[25rem] w-full m-20">
+        <!-- Left Section (30%) -->
+        <div class="w-3/10 flex flex-col items-center p-4">
+            <img src="https://www.apple.com/v/airpods-max/h/images/overview/contrast/airpods_max_midnight__ddy8oa1y3y4i_large_2x.png "alt="Product Image" class="w-24">
+        </div>
+        
+        <!-- Right Section (70%) -->
+        <div class="w-7/10 p-4">
+            <span class="bg-purple-500 text-white text-xs font-semibold px-2 py-1 rounded-xl">Free shipping</span>
+
+            <!-- Product Title (Force 2 Lines) -->
+            <h2 class="text-sm font-semibold mt-2 w-[80%] break-words">
+                Apple AirPods Max Gaming Headset Midnight Black
+            </h2>
+
+            <p class="text-gray-500 text-xs line-through mt-1">1,599,-</p>
+            <p class="text-xl font-bold text-gray-900">799,-</p>
+            <p class="text-xs text-gray-500">Offer valid until April 3 or while stock lasts!</p>
+
+            <button class="bg-blue-600 hover:bg-blue-700 text-white w-full py-2 mt-3 rounded-md text-sm font-medium">Add to cart</button>
+
+            <div class="flex items-center gap-2 mt-2">
+                <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                <p class="text-xs text-gray-700">50+ pcs. in stock.</p>
+            </div>
+
+            <!-- Buttons with 2px gap -->
+            <div class="flex gap-[2px] mt-3">
+                <button class="flex items-center px-3 py-2 border rounded-md text-xs text-gray-700 hover:bg-gray-200">
+                    ⚖ Compare
+                </button>
+                <button class="flex items-center px-3 py-2 border rounded-md text-xs text-gray-700 hover:bg-gray-200">
+                    ❤ Wishlist
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
