@@ -6,7 +6,7 @@ function isEven(number) {
     }
   }
   
-  let num = 10;
+  let num = 13;
   if (isEven(num)) {
     console.log(num + " is even");
   } else {
